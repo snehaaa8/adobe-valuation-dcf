@@ -15,7 +15,7 @@ This project estimates the **intrinsic value of Adobe Inc. (ADBE)** using:
 
 ```
 adobe-valuation/
-├── adobe_analysis.ipynb               # Main notebook with visualizations
+├── adobe_valuation_notebook.ipynb               # Main notebook with visualizations
 ├── adobe_valuation.py                 # Python module to compute valuation
 ├── adobe_valuation_output.xlsx        # Python-exported valuation data
 ├── Adobe_DCF_Prefilled.xlsx           # Manual Excel-based DCF model
@@ -52,7 +52,7 @@ adobe-valuation/
 ## 💡 How to Run
 
 1. Clone repo / download files
-2. Open `adobe_analysis.ipynb` in Jupyter or VS Code
+2. Open `adobe_valuation_notebook.ipynb` in Jupyter or VS Code
 3. Run cells to generate updated charts
 4. Optional: open `.html` files in browser
 
@@ -72,14 +72,4 @@ pip install yfinance numpy pandas plotly
 
 Built by Sneha Dutt using live financials and Python automation. Project showcases data-driven financial valuation for Adobe Inc.
 
----
 
-## 📤 Optional Extensions
-
-* [ ] Add Power BI or Tableau dashboard
-* [ ] Publish findings on LinkedIn or GitHub Pages
-* [ ] Integrate Alpha Vantage or SEC API for enhanced data
-
----
-
-> 📁 This is a resume-ready project that combines technical and financial modeling skills. Perfect for analyst interviews, portfolio showcases, or investment case studies.
